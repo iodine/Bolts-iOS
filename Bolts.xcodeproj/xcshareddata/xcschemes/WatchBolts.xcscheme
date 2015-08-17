@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "217705231B828E4C00DCB1C6"
-               BuildableName = "WatchBolts.framework"
+               BuildableName = "Bolts.framework"
                BlueprintName = "WatchBolts"
                ReferencedContainer = "container:Bolts.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "217705231B828E4C00DCB1C6"
-            BuildableName = "WatchBolts.framework"
+            BuildableName = "Bolts.framework"
             BlueprintName = "WatchBolts"
             ReferencedContainer = "container:Bolts.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "217705231B828E4C00DCB1C6"
-            BuildableName = "WatchBolts.framework"
+            BuildableName = "Bolts.framework"
             BlueprintName = "WatchBolts"
             ReferencedContainer = "container:Bolts.xcodeproj">
          </BuildableReference>
