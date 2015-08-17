@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8EDDA62817E17DDC00655F8A"
-               BuildableName = "Bolts.framework"
-               BlueprintName = "MacBolts"
+               BlueprintIdentifier = "217705231B828E4C00DCB1C6"
+               BuildableName = "WatchBolts.framework"
+               BlueprintName = "WatchBolts"
                ReferencedContainer = "container:Bolts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8E8C8F1817F241DA00E3F1C7"
-               BuildableName = "MacBoltsTests.xctest"
-               BlueprintName = "MacBoltsTests"
-               ReferencedContainer = "container:Bolts.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -55,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8EDDA62817E17DDC00655F8A"
-            BuildableName = "Bolts.framework"
-            BlueprintName = "MacBolts"
+            BlueprintIdentifier = "217705231B828E4C00DCB1C6"
+            BuildableName = "WatchBolts.framework"
+            BlueprintName = "WatchBolts"
             ReferencedContainer = "container:Bolts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "217705231B828E4C00DCB1C6"
+            BuildableName = "WatchBolts.framework"
+            BlueprintName = "WatchBolts"
+            ReferencedContainer = "container:Bolts.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

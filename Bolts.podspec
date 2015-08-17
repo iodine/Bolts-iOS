@@ -18,23 +18,27 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.ios.deployment_target = '5.0'
+  s.watchos.deployment_target = '2.0'
   s.osx.deployment_target = '10.7'
-  
+
   s.subspec 'Tasks' do |ss|
     ss.ios.source_files = 'Bolts/Common/*.[hm]'
     ss.ios.public_header_files = 'Bolts/Common/*.h'
-    
+
+    ss.watchos.source_files = 'Bolts/Common/*.[hm]'
+    ss.watchos.public_header_files = 'Bolts/Common/*.h'
+
     ss.osx.source_files = 'Bolts/Common/*.[hm]'
     ss.osx.public_header_files = 'Bolts/Common/*.h'
   end
-  
+
   s.subspec 'AppLinks' do |ss|
     ss.ios.deployment_target = '5.0'
     ss.dependency 'Bolts/Tasks'
-    
+
     ss.ios.source_files = 'Bolts/iOS/*.[hm]'
     ss.ios.public_header_files = 'Bolts/iOS/*.h'
     ss.osx.source_files = ''
   end
-  
+
 end
